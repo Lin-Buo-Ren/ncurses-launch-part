@@ -1,8 +1,8 @@
 name: ncurses-launch
 version: current
-summary: Fixes to ncurses applications
+summary: Fixes for ncurses applications
 description: |
-  This part provides fixes to ncurses applications to function correctly.
+  This part provides fixes for ncurses applications to function correctly.
 
 grade: stable
 confinement: strict
