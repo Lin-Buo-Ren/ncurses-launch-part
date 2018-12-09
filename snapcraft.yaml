@@ -1,0 +1,17 @@
+name: ncurses-launch
+version: current
+summary: Fixes to ncurses applications
+description: |
+  This part provides fixes to ncurses applications to function correctly.
+
+grade: stable
+confinement: strict
+
+parts:
+  ncurses-launch:
+    source: launchers
+    plugin: dump
+    organize:
+      '*-launch': bin/
+    stage-packages:
+    - ncurses-base

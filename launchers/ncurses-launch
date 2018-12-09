@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# This launcher fixes compatibility problems of ncurses in strict anc classic confinement
+# Including but not limited to the "Error opening terminal: xterm-256color." error
+
+set \
+    -o errexit \
+    -o nounset
+
+export \
+    TERMINFO="${SNAP}"/lib/terminfo
+
+exec "${@}"
