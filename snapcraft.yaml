@@ -2,7 +2,10 @@ name: ncurses-launch
 version: current
 summary: Fixes for ncurses applications
 description: |
-  This part provides fixes for ncurses applications to function correctly.
+  This part provides fixes for ncurses applications to function correctly.  Refer the following snapcraft forum post for more info about using this part:
+
+    The ncurses-launch Remote Part - doc - snapcraft.io
+    https://forum.snapcraft.io/t/the-ncurses-launch-remote-part/8934
 
 grade: stable
 confinement: strict
