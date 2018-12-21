@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This launcher fixes compatibility problems of ncurses in strict anc classic confinement
+# This launcher fixes compatibility problems of ncurses in strict and classic confinement
 # Including but not limited to the "Error opening terminal: xterm-256color." error
 
 set \
